@@ -12,7 +12,7 @@ namespace DragonsLair_1
         public void ShowScore(string tournamentName)
         {
             int winnerPoint = 1;
-            int point = 0;
+          
           
            Tournament t = tournamentRepo.GetTournament(tournamentName);          
           
@@ -37,17 +37,7 @@ namespace DragonsLair_1
                     }
                     teamDictionary.Add(winningTeam.name, winnerPoint);
                 }
-                //foreach (Team loosingTeam in loosingTeams)
-                //{
-                //    if (teamDictionary.ContainsKey(loosingTeam.name) && teamDictionary.ContainsKey(winningTeam.name))
-                //    {
-
-                //        teamDictionary.Remove(loosingTeam.name);
-
-                //    }
-                //    teamDictionary.Add(loosingTeam.name, point);
-                //}
-
+           
             }
 
             
