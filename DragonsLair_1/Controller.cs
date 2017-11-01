@@ -22,7 +22,7 @@ namespace DragonsLair_1
             {
                 Round currentRound = t.GetRound(i);
                 List<Team> winningTeams = currentRound.GetWinningTeams();
-                List<Team> loosingTeams = t.GetRound(0).GetLosingTeams();
+               
 
                 foreach (Team winningTeam in winningTeams)
                 {
@@ -129,7 +129,7 @@ namespace DragonsLair_1
                         t.SetStatusFinished(true);
                     Console.WriteLine("Turneringen er overstået");
                     Console.ReadKey();
-                    //test
+                    
 
 
                 }
