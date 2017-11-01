@@ -129,7 +129,7 @@ namespace DragonsLair_1
                         t.SetStatusFinished(true);
                     Console.WriteLine("Turneringen er overstået");
                     Console.ReadKey();
-
+                    //test
 
 
                 }
